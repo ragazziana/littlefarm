@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+      <title>Little Farm</title>
+   </head>
+   <body>
+
+    
+      <header>
+         <p class="logo">Little Farm</p>
+         <p class="main-text">Click on the animal to hear the sound it makes!</p>
+      </header>     
+      <main class="box">
+         <div class="animals">
+            <div class="cage">
+               <img id="pig" src="/images/chicken.png" alt="Chicken">
+               <div class="container">
+                <audio id="chicken" src="/audios/neizvesten-kudahtane-kur.mp3" preload="auto"></audio>
+                <button class="btn btnchicken" onclick="document.getElementById('chicken').play();">Chicken</button>
+               </div>
+            </div>
+            <div class="cage">
+                <img id="pig" src="/images/pig.png" alt="Pig">
+                <div class="container">
+                    <audio id="pigsound" src="/audios/Pig squeal animals024.mp3" preload="auto"></audio>
+                <button class="btn btnpig" onclick="document.getElementById('pigsound').play();">Pig</button>
+               </div>
+             </div>
+             <div class="cage">
+                <img id="pig" src="/images/cow.png" alt="Cow">
+                <div class="container">
+                    <audio id="cowsound" src="/audios/Cow animals084.wav" preload="auto"></audio>
+                <button class="btn btncow" onclick="document.getElementById('cowsound').play();">Cow</button>
+               </div>
+             </div>
+             <div class="cage">
+                <img id="pig" src="/images/dog.png" alt="Dog">
+                <div class="container">
+                    <audio id="dogsound" src="/audios/Dog animals080.wav" preload="auto"></audio>
+                <button class="btn btndog" onclick="document.getElementById('dogsound').play();">Dog</button>
+               </div>
+             </div>
+             <div class="cage">
+                <img id="pig" src="/images/sheep.png" alt="Sheep">
+                <div class="container">
+                    <audio id="sheepsound" src="/audios/Sheep - ewe animals112.wav" preload="auto"></audio>
+                <button class="btn btnsheep" onclick="document.getElementById('sheepsound').play();">Sheep</button>
+               </div>
+             </div>
+             <div class="cage">
+                <img id="pig" src="/images/animal.png" alt="Horse">
+                <div class="container">
+                    <audio id="horsesound" src="/audios/Horse-whinnying animals037.wav" preload="auto"></audio>
+                <button class="btn btnhorse" onclick="document.getElementById('horsesound').play();">Horse</button>
+               </div>
+             </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+         Little Farm - Created by Ana Ragazzi
+      </footer>
+   </body>
+</html>
